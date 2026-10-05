@@ -1,0 +1,18 @@
+Manga Translator — сборка APK через GitHub
+
+1. Распакуйте этот ZIP.
+2. Откройте репозиторий:
+   https://github.com/lesapabgovic-lab/MangaTranslator
+3. Нажмите Add file → Upload files.
+4. Загрузите ВСЕ файлы и папки из распакованного архива.
+   Важно: папка .github/workflows тоже должна попасть в репозиторий.
+5. Нажмите Commit changes.
+6. Откройте вкладку Actions.
+7. Выберите Build Manga Translator APK.
+8. Дождитесь зелёной галочки.
+9. Откройте завершённый запуск → Artifacts → MangaTranslator-debug.
+10. Скачайте ZIP, распакуйте его и установите app-debug.apk на Android.
+
+Сейчас это рабочий прототип редактора. Следующий этап — настоящий OCR,
+выделение областей текста, очистка оригинала, авторазмещение перевода,
+глоссарий и экспорт CBZ.
